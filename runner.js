@@ -44,8 +44,6 @@ for(let i=0;i < rules.length;i++) {
 
 let loaders = [...postLoaders,...inlineLoaders,...normalLoders,...preLoaders].map(loader => path.resolve(__dirname,'loaders',loader));
 
-
-
 runLoaders({
     resource,
     loaders
